@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/vlayout"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical" >
+
+         <EditText
+             android:id="@+id/foodname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Name of Food" />
+
+         <EditText
+             android:id="@+id/serving"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_weight="0.10"
+             android:ems="10"
+             android:hint="Amount Of 1 Serving" />
+
+         <EditText
+             android:id="@+id/calories"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Calories" />
+
+         <EditText
+             android:id="@+id/fat"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Fat" >
+
+             <requestFocus />
+         </EditText>
+
+         <EditText
+             android:id="@+id/cholesterol"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Cholesterol" />
+
+         <EditText
+             android:id="@+id/sodium"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Sodium" />
+
+         <EditText
+             android:id="@+id/carbohydrates"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Carbs" />
+
+         <EditText
+             android:id="@+id/sugar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Sugar" />
+
+         <EditText
+             android:id="@+id/protein"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Protein" />
+
+         <Button
+             android:id="@+id/savebutton"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Save" />
+
+         <Button
+             android:id="@+id/menubutton"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="Main Menu" />
+
+     </LinearLayout>
+</ScrollView>

@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".AllDrinks" >
         </activity>
+        <activity android:name=".AllFoods" >
+        </activity>
 
         
         <activity
@@ -44,6 +46,8 @@
         <activity android:name=".MyFood" >
         </activity>
         <activity android:name=".AddDrinks" >
+        </activity>
+        <activity android:name=".AddFoods" >
         </activity>
         <activity android:name=".TabInventory2" >
         </activity>

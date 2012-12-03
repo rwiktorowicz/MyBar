@@ -31,7 +31,7 @@ public class MyFood extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent myIntent = new Intent(v.getContext(), AllDrinks.class);
+				Intent myIntent = new Intent(v.getContext(), AllFoods.class);
 				MyFood.this.startActivity(myIntent);
 				
 			}
@@ -43,7 +43,7 @@ public class MyFood extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent myIntent = new Intent(v.getContext(), AllDrinks.class);
+				Intent myIntent = new Intent(v.getContext(), AddFoods.class);
 				MyFood.this.startActivity(myIntent);
 				
 			}
